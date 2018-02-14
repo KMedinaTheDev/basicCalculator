@@ -1,0 +1,104 @@
+body{
+  height:450px;
+  width: 90%;
+  background: url("images/computermonitor.png") no-repeat;
+  background-position: top;
+  background-size: contain;
+  float: left;
+  margin: 2% 5% 2% 5%;
+  font-family: 'BioRhyme Expanded', serif;
+}
+button{
+  background-color: orange;
+  color: black;
+  text-shadow: 10%;
+  border-radius: 5px;
+  width:12%;
+  float: left;
+  margin: 2% 0 0 6%;
+  font-size: 2em;
+  font-weight: bold;
+  border: 2px inset black;
+}
+footer{
+  font-size: .8em;
+  clear: both;
+  margin-left: 37%;
+  margin-top: 45%;
+}
+form{
+  width:40%;
+  margin-left: 30%;
+}
+h1{
+  font-size: 1.4em;
+  float: left;
+  margin:5% 0 5% 15%;
+}
+
+h1,h2,footer{
+  color:rgb(96, 116, 114);
+  font-weight: 900;
+}
+h2{
+  width:100%;
+  float: left;
+  font-size: 1em;
+  margin: 1% 45% 0 35%;
+}
+
+input{
+  height:50px;
+  width:20%;
+  margin-left: 15%;
+  margin-bottom: 50px;
+  padding-left: 2%;
+  font-size: 2em;
+  border-radius: 5px;
+  float: left;
+  color:rgb(228, 142, 13);
+}
+p{
+  float: left;
+  font-size: .7em;
+  text-align: left;
+  line-height:30px;
+  margin: 10% 0 0 8%;
+}
+section{
+  background-image: url("images/bubble.png");
+  background-size: cover;
+  float: left;
+  height:260px;
+  width:25%;
+}
+
+/*======= Mobile Media Query ====*/
+
+@media only screen and (max-width:736px){
+  body{
+    height:600px;
+    width:100%;
+  }
+  button{
+    margin-left: 8%;
+  }
+  footer{
+    margin: 80% 0 0 15%;
+  }
+  form{
+    width:60%;
+    margin-left:15%;
+  }
+  h1{
+    font-size: .8em;
+    margin: 10% 0 0 15%;
+  }
+  input{
+    margin-left: 15%;
+  }
+  section{
+    display: none;
+  }
+
+}
