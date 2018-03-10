@@ -1,11 +1,10 @@
 body{
-  height:450px;
-  width: 90%;
   background: url("images/computermonitor.png") no-repeat;
   background-position: top;
   background-size: contain;
+
   float: left;
-  margin: 2% 5% 2% 5%;
+  margin: 5% 5% 2% 3%;
   font-family: 'BioRhyme Expanded', serif;
 }
 button{
@@ -13,9 +12,9 @@ button{
   color: black;
   text-shadow: 10%;
   border-radius: 5px;
-  width:12%;
+  width:13%;
   float: left;
-  margin: 2% 0 0 6%;
+  margin: 22% 0 0 6%;
   font-size: 2em;
   font-weight: bold;
   border: 2px inset black;
@@ -23,17 +22,17 @@ button{
 footer{
   font-size: .8em;
   clear: both;
-  margin-left: 37%;
-  margin-top: 45%;
+  margin-left: 49%;
+  margin-top: 55%;
 }
 form{
-  width:40%;
+  width:50%;
   margin-left: 30%;
 }
 h1{
   font-size: 1.4em;
   float: left;
-  margin:5% 0 5% 15%;
+  margin:5% 0 5% 7em;;
 }
 
 h1,h2,footer{
@@ -41,14 +40,14 @@ h1,h2,footer{
   font-weight: 900;
 }
 h2{
-  width:100%;
+  width:50%;
   float: left;
   font-size: 1em;
-  margin: 1% 45% 0 35%;
+  margin: 1% 5% 0 35%;
 }
 
 input{
-  height:50px;
+  height:60px;
   width:20%;
   margin-left: 15%;
   margin-bottom: 50px;
@@ -61,24 +60,30 @@ input{
 p{
   float: left;
   font-size: .7em;
+  font-weight: bold;
   text-align: left;
-  line-height:30px;
-  margin: 10% 0 0 8%;
+  line-height:60px;
+  margin: 10% 0 0 3%;
+  padding: 3%;
+  color:rgb(228, 142, 13);
+
 }
 section{
   background-image: url("images/bubble.png");
   background-size: cover;
+  /* background-position: bottom; */
+  background-repeat: no-repeat;
   float: left;
-  height:260px;
-  width:25%;
+  width:28%;
+  height: 400px;
 }
 
 /*======= Mobile Media Query ====*/
 
-@media only screen and (max-width:736px){
+/* @media (min-width:600) and (max-width:968px){
   body{
     height:600px;
-    width:100%;
+    width:1024px;
   }
   button{
     margin-left: 8%;
@@ -101,4 +106,4 @@ section{
     display: none;
   }
 
-}
+} */
